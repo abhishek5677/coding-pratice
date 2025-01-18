@@ -164,7 +164,7 @@
 // ---------------------------------------------------------------------------------
 
 // write a function to check weather 2 string are anagram are not
-// means - we have to check weather 2 string have same character or not 
+// means - we have to check weather 2 string have same character or not
 
 // function checkAnagram(str1, str2) {
 //     // Normalize both strings by converting to lowercase
@@ -222,4 +222,27 @@
 
 // ---------------------------------------------------------------------------------
 
+// Find the frequency of each element in the given string
 
+// const str = 'aacbbccabb aacccee ddeee'
+
+// function getCount(str) {
+
+//     const sentence = str.split('').sort().filter(ele => ele !== ' ')
+//     let countObj = {};
+
+//     for (const word of sentence) {
+//         if (!countObj[word]) {
+//             countObj[word] = 1;
+//         }
+//         else {
+//             countObj[word] += 1;
+//         }
+//     }
+
+//     return countObj;
+// }
+
+// console.log(getCount(str));
+
+// ---------------------------------------------------------------------------------
