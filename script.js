@@ -224,25 +224,25 @@
 
 // Find the frequency of each element in the given string
 
-// const str = 'aacbbccabb aacccee ddeee'
+const str = 'aacbbccabb aacccee ddeee'
 
-// function getCount(str) {
+function getCount(str) {
 
-//     const sentence = str.split('').sort().filter(ele => ele !== ' ')
-//     let countObj = {};
+    const sentence = str.split('').sort().filter(ele => ele !== ' ')
+    let countObj = {};
 
-//     for (const word of sentence) {
-//         if (!countObj[word]) {
-//             countObj[word] = 1;
-//         }
-//         else {
-//             countObj[word] += 1;
-//         }
-//     }
+    for (const word of sentence) {
+        if (!countObj[word]) {
+            countObj[word] = 1;
+        }
+        else {
+            countObj[word] += 1;
+        }
+    }
 
-//     return countObj;
-// }
+    return countObj;
+}
 
-// console.log(getCount(str));
+console.log(getCount(str));
 
 // ---------------------------------------------------------------------------------
